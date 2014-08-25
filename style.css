@@ -1,0 +1,26 @@
+
+/**
+ * HubSpot
+ */
+
+.logo[data-logo="HubSpot"] {
+  width: 3.546784174em;
+  /* (291.0/106.66) * (1+.25+.05) - 0 */
+}
+
+.logo[data-logo="HubSpot"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.25em 0 -.05em 0;
+}
+
+.logo[data-logo="HubSpot"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
+
+.logo[data-logo="HubSpot"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="HubSpot"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
